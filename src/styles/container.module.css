@@ -1,0 +1,52 @@
+#container{
+    width: 40%;
+    height: auto;
+    padding-bottom: 10px;
+    /* background-color: rgb(37, 9, 85); */
+    background-color: #334257;
+    margin: 50px auto;
+    color: rgb(222, 228, 233);
+    border-radius: 10px;
+}
+#title{
+    color: #EEEEEE;
+}
+#question{
+    color: #B2AB8C;
+}
+#options{
+    cursor: pointer;
+    color: #EDF6E5;
+}
+.option{
+    display: flex;
+    justify-content: start;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+
+.option:hover{
+    background-color: #476072;
+}
+#ScoreBoard{
+    padding: 20px;
+}
+#playAgain{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(37, 9, 85);
+    background-color: rgb(222, 228, 233);
+    border-radius: 10px;
+
+}
+#playAgain:hover{
+    width: 170px;
+    height: 50px;
+    transition: 0.2s;
+    background-color: rgb(178, 181, 184);
+}
